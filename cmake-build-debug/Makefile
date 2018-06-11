@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-insertion_extraction_operator.o: insertion_extraction_operator.cpp.o
+linked_list.o: linked_list.cpp.o
 
-.PHONY : insertion_extraction_operator.o
+.PHONY : linked_list.o
 
 # target to build an object file
-insertion_extraction_operator.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/insertion_extraction_operator.cpp.o
-.PHONY : insertion_extraction_operator.cpp.o
+linked_list.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list.cpp.o
+.PHONY : linked_list.cpp.o
 
-insertion_extraction_operator.i: insertion_extraction_operator.cpp.i
+linked_list.i: linked_list.cpp.i
 
-.PHONY : insertion_extraction_operator.i
+.PHONY : linked_list.i
 
 # target to preprocess a source file
-insertion_extraction_operator.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/insertion_extraction_operator.cpp.i
-.PHONY : insertion_extraction_operator.cpp.i
+linked_list.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list.cpp.i
+.PHONY : linked_list.cpp.i
 
-insertion_extraction_operator.s: insertion_extraction_operator.cpp.s
+linked_list.s: linked_list.cpp.s
 
-.PHONY : insertion_extraction_operator.s
+.PHONY : linked_list.s
 
 # target to generate assembly for a file
-insertion_extraction_operator.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/insertion_extraction_operator.cpp.s
-.PHONY : insertion_extraction_operator.cpp.s
+linked_list.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list.cpp.s
+.PHONY : linked_list.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... insertion_extraction_operator.o"
-	@echo "... insertion_extraction_operator.i"
-	@echo "... insertion_extraction_operator.s"
+	@echo "... linked_list.o"
+	@echo "... linked_list.i"
+	@echo "... linked_list.s"
 .PHONY : help
 
 

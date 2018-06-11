@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/insertion_extraction_operator.cpp.o"
+  "CMakeFiles/cpp_practice.dir/linked_list.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )
