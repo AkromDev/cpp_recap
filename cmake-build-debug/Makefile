@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-object_pointer.o: object_pointer.cpp.o
+this_pointer.o: this_pointer.cpp.o
 
-.PHONY : object_pointer.o
+.PHONY : this_pointer.o
 
 # target to build an object file
-object_pointer.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/object_pointer.cpp.o
-.PHONY : object_pointer.cpp.o
+this_pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.o
+.PHONY : this_pointer.cpp.o
 
-object_pointer.i: object_pointer.cpp.i
+this_pointer.i: this_pointer.cpp.i
 
-.PHONY : object_pointer.i
+.PHONY : this_pointer.i
 
 # target to preprocess a source file
-object_pointer.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/object_pointer.cpp.i
-.PHONY : object_pointer.cpp.i
+this_pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.i
+.PHONY : this_pointer.cpp.i
 
-object_pointer.s: object_pointer.cpp.s
+this_pointer.s: this_pointer.cpp.s
 
-.PHONY : object_pointer.s
+.PHONY : this_pointer.s
 
 # target to generate assembly for a file
-object_pointer.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/object_pointer.cpp.s
-.PHONY : object_pointer.cpp.s
+this_pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.s
+.PHONY : this_pointer.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... object_pointer.o"
-	@echo "... object_pointer.i"
-	@echo "... object_pointer.s"
+	@echo "... this_pointer.o"
+	@echo "... this_pointer.i"
+	@echo "... this_pointer.s"
 .PHONY : help
 
 
