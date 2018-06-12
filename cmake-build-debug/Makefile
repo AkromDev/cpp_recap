@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-this_pointer.o: this_pointer.cpp.o
+method_overloading_overriding_hiding.o: method_overloading_overriding_hiding.cpp.o
 
-.PHONY : this_pointer.o
+.PHONY : method_overloading_overriding_hiding.o
 
 # target to build an object file
-this_pointer.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.o
-.PHONY : this_pointer.cpp.o
+method_overloading_overriding_hiding.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.o
+.PHONY : method_overloading_overriding_hiding.cpp.o
 
-this_pointer.i: this_pointer.cpp.i
+method_overloading_overriding_hiding.i: method_overloading_overriding_hiding.cpp.i
 
-.PHONY : this_pointer.i
+.PHONY : method_overloading_overriding_hiding.i
 
 # target to preprocess a source file
-this_pointer.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.i
-.PHONY : this_pointer.cpp.i
+method_overloading_overriding_hiding.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.i
+.PHONY : method_overloading_overriding_hiding.cpp.i
 
-this_pointer.s: this_pointer.cpp.s
+method_overloading_overriding_hiding.s: method_overloading_overriding_hiding.cpp.s
 
-.PHONY : this_pointer.s
+.PHONY : method_overloading_overriding_hiding.s
 
 # target to generate assembly for a file
-this_pointer.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/this_pointer.cpp.s
-.PHONY : this_pointer.cpp.s
+method_overloading_overriding_hiding.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.s
+.PHONY : method_overloading_overriding_hiding.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... this_pointer.o"
-	@echo "... this_pointer.i"
-	@echo "... this_pointer.s"
+	@echo "... method_overloading_overriding_hiding.o"
+	@echo "... method_overloading_overriding_hiding.i"
+	@echo "... method_overloading_overriding_hiding.s"
 .PHONY : help
 
 

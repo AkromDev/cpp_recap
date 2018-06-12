@@ -9,7 +9,7 @@ public:
      * and assigning it to 'l' variable of an Object
      * */
     void setDimension(int l, int b, int h){
-        this -> l = l; // this means, current object
+        this -> l = l; // 'this' means, current object
         this -> b = b;
         this -> h = h;
     }
