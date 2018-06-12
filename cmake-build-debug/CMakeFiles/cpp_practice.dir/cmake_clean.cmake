@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.o"
+  "CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )

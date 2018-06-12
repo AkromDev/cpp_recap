@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-method_overloading_overriding_hiding.o: method_overloading_overriding_hiding.cpp.o
+base_class_pointer.o: base_class_pointer.cpp.o
 
-.PHONY : method_overloading_overriding_hiding.o
+.PHONY : base_class_pointer.o
 
 # target to build an object file
-method_overloading_overriding_hiding.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.o
-.PHONY : method_overloading_overriding_hiding.cpp.o
+base_class_pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.o
+.PHONY : base_class_pointer.cpp.o
 
-method_overloading_overriding_hiding.i: method_overloading_overriding_hiding.cpp.i
+base_class_pointer.i: base_class_pointer.cpp.i
 
-.PHONY : method_overloading_overriding_hiding.i
+.PHONY : base_class_pointer.i
 
 # target to preprocess a source file
-method_overloading_overriding_hiding.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.i
-.PHONY : method_overloading_overriding_hiding.cpp.i
+base_class_pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.i
+.PHONY : base_class_pointer.cpp.i
 
-method_overloading_overriding_hiding.s: method_overloading_overriding_hiding.cpp.s
+base_class_pointer.s: base_class_pointer.cpp.s
 
-.PHONY : method_overloading_overriding_hiding.s
+.PHONY : base_class_pointer.s
 
 # target to generate assembly for a file
-method_overloading_overriding_hiding.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/method_overloading_overriding_hiding.cpp.s
-.PHONY : method_overloading_overriding_hiding.cpp.s
+base_class_pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.s
+.PHONY : base_class_pointer.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... method_overloading_overriding_hiding.o"
-	@echo "... method_overloading_overriding_hiding.i"
-	@echo "... method_overloading_overriding_hiding.s"
+	@echo "... base_class_pointer.o"
+	@echo "... base_class_pointer.i"
+	@echo "... base_class_pointer.s"
 .PHONY : help
 
 
