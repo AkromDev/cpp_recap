@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 class LinkedList {
@@ -18,6 +17,7 @@ public:
     }
     void insertFromBack(int value);
     void insertFromFront(int value);
+    void deleteNode(int value);
     void printList();
     bool isEmpty();
 };
@@ -64,6 +64,26 @@ void LinkedList::printList() {
     }
 }
 
+void LinkedList::deleteNode(int value) {
+    nPtr target = new node;
+    current = head;
+    if(isEmpty()){
+        cout << "List is empty!\n";
+    }else{
+        if(head -> data == value){
+            target = head;
+            head = head -> next;
+        }else{
+            while(current -> next ->  data != value){
+                current = current -> next;
+            };
+            target = current -> next;
+            current -> next = target -> next;
+        }
+        delete target;
+    }
+}
+
 bool LinkedList::isEmpty() {
     return head == NULL;
 }
@@ -82,6 +102,10 @@ int main(){
             case 'b':
                 cin >> value;
                 myList.insertFromFront(value);
+                break;
+            case 'd':
+                cin >> value;
+                myList.deleteNode(value);
                 break;
             case 'p': myList.printList();break;
             case 'e':return 0;
