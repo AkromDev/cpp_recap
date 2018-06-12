@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-base_class_pointer.o: base_class_pointer.cpp.o
+virtual_functions.o: virtual_functions.cpp.o
 
-.PHONY : base_class_pointer.o
+.PHONY : virtual_functions.o
 
 # target to build an object file
-base_class_pointer.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.o
-.PHONY : base_class_pointer.cpp.o
+virtual_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.o
+.PHONY : virtual_functions.cpp.o
 
-base_class_pointer.i: base_class_pointer.cpp.i
+virtual_functions.i: virtual_functions.cpp.i
 
-.PHONY : base_class_pointer.i
+.PHONY : virtual_functions.i
 
 # target to preprocess a source file
-base_class_pointer.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.i
-.PHONY : base_class_pointer.cpp.i
+virtual_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.i
+.PHONY : virtual_functions.cpp.i
 
-base_class_pointer.s: base_class_pointer.cpp.s
+virtual_functions.s: virtual_functions.cpp.s
 
-.PHONY : base_class_pointer.s
+.PHONY : virtual_functions.s
 
 # target to generate assembly for a file
-base_class_pointer.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/base_class_pointer.cpp.s
-.PHONY : base_class_pointer.cpp.s
+virtual_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.s
+.PHONY : virtual_functions.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... base_class_pointer.o"
-	@echo "... base_class_pointer.i"
-	@echo "... base_class_pointer.s"
+	@echo "... virtual_functions.o"
+	@echo "... virtual_functions.i"
+	@echo "... virtual_functions.s"
 .PHONY : help
 
 
