@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/linked_list.cpp.o"
+  "CMakeFiles/cpp_practice.dir/pointers.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )

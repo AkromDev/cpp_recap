@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 class LinkedList {
     typedef struct node {
         int data;
