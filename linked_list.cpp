@@ -16,12 +16,13 @@ public:
         tail = NULL;
         current = NULL;
     }
-    void insertNode(int value);
+    void insertFromBack(int value);
+    void insertFromFront(int value);
     void printList();
     bool isEmpty();
 };
 
-void LinkedList::insertNode(int value) {
+void LinkedList::insertFromBack(int value) {
     nPtr n = new node;
     n -> data = value;
     n -> next = NULL;
@@ -35,6 +36,19 @@ void LinkedList::insertNode(int value) {
         }
         current -> next = n;
         tail = n;
+    }
+}
+void LinkedList::insertFromFront(int value) {
+    nPtr n = new node;
+    current = head;
+    n -> data = value;
+    n -> next = NULL;
+    if(isEmpty()){
+        head = n;
+        tail = n;
+    }else{
+        head = n;
+        head -> next = current;
     }
 }
 
@@ -57,13 +71,17 @@ bool LinkedList::isEmpty() {
 int main(){
     LinkedList myList;
     char opCode;
+    int value;
     while(1){
         cin >> opCode;
         switch(opCode){
             case 'i':
-                int value;
                 cin >> value;
-                myList.insertNode(value);
+                myList.insertFromBack(value);
+                break;
+            case 'b':
+                cin >> value;
+                myList.insertFromFront(value);
                 break;
             case 'p': myList.printList();break;
             case 'e':return 0;
