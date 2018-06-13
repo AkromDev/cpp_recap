@@ -21,7 +21,7 @@ template <class T> // or template <typename T>
 T sum(T x, T y){
     return x+y;
 }
-template <class T>
+template <class T> // template function overloading is occuring
 T sum(T x, T y, T z ){
     return x+y+z;
 }
