@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/imago/Documents/University courses/assingments/cpp_practice/virtual_functions.cpp
-iostream
+/Users/imago/Documents/University courses/assingments/cpp_practice/test.cpp
+stdio.h
 -
 

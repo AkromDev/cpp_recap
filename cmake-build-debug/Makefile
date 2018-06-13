@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-virtual_functions.o: virtual_functions.cpp.o
+Abstract_class.o: Abstract_class.cpp.o
 
-.PHONY : virtual_functions.o
+.PHONY : Abstract_class.o
 
 # target to build an object file
-virtual_functions.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.o
-.PHONY : virtual_functions.cpp.o
+Abstract_class.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.o
+.PHONY : Abstract_class.cpp.o
 
-virtual_functions.i: virtual_functions.cpp.i
+Abstract_class.i: Abstract_class.cpp.i
 
-.PHONY : virtual_functions.i
+.PHONY : Abstract_class.i
 
 # target to preprocess a source file
-virtual_functions.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.i
-.PHONY : virtual_functions.cpp.i
+Abstract_class.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.i
+.PHONY : Abstract_class.cpp.i
 
-virtual_functions.s: virtual_functions.cpp.s
+Abstract_class.s: Abstract_class.cpp.s
 
-.PHONY : virtual_functions.s
+.PHONY : Abstract_class.s
 
 # target to generate assembly for a file
-virtual_functions.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/virtual_functions.cpp.s
-.PHONY : virtual_functions.cpp.s
+Abstract_class.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.s
+.PHONY : Abstract_class.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... virtual_functions.o"
-	@echo "... virtual_functions.i"
-	@echo "... virtual_functions.s"
+	@echo "... Abstract_class.o"
+	@echo "... Abstract_class.i"
+	@echo "... Abstract_class.s"
 .PHONY : help
 
 
