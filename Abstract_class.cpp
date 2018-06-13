@@ -20,7 +20,7 @@ public:
     Student(int s){
         age = s;
     }
-    int getAge(int x){
+    int getAge(int x){ // should be same with base class abstract method
         return age;
     }
 };
@@ -31,7 +31,7 @@ public:
     Faculty(int t){
         age = t;
     }
-    int getAge(int a){
+    int getAge(int a){ // should be same with base class abstract method
         return age;
     }
 };
