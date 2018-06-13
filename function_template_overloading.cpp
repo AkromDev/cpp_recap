@@ -17,6 +17,15 @@ void display(int num1){
     cout << "Integer variable -> " << num1 << endl;
 }
 
+template <class T> // or template <typename T>
+T sum(T x, T y){
+    return x+y;
+}
+template <class T>
+T sum(T x, T y, T z ){
+    return x+y+z;
+}
+
 
 int main(){
     int x = 10;
