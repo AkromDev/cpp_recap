@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/Function_template.cpp.o"
+  "CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )
