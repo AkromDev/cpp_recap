@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/Abstract_class.cpp.o"
+  "CMakeFiles/cpp_practice.dir/Function_template.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )

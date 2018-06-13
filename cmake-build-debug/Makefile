@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-Abstract_class.o: Abstract_class.cpp.o
+Function_template.o: Function_template.cpp.o
 
-.PHONY : Abstract_class.o
+.PHONY : Function_template.o
 
 # target to build an object file
-Abstract_class.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.o
-.PHONY : Abstract_class.cpp.o
+Function_template.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Function_template.cpp.o
+.PHONY : Function_template.cpp.o
 
-Abstract_class.i: Abstract_class.cpp.i
+Function_template.i: Function_template.cpp.i
 
-.PHONY : Abstract_class.i
+.PHONY : Function_template.i
 
 # target to preprocess a source file
-Abstract_class.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.i
-.PHONY : Abstract_class.cpp.i
+Function_template.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Function_template.cpp.i
+.PHONY : Function_template.cpp.i
 
-Abstract_class.s: Abstract_class.cpp.s
+Function_template.s: Function_template.cpp.s
 
-.PHONY : Abstract_class.s
+.PHONY : Function_template.s
 
 # target to generate assembly for a file
-Abstract_class.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Abstract_class.cpp.s
-.PHONY : Abstract_class.cpp.s
+Function_template.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/Function_template.cpp.s
+.PHONY : Function_template.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... Abstract_class.o"
-	@echo "... Abstract_class.i"
-	@echo "... Abstract_class.s"
+	@echo "... Function_template.o"
+	@echo "... Function_template.i"
+	@echo "... Function_template.s"
 .PHONY : help
 
 
