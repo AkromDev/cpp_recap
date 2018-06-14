@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/casting_operator.cpp.o"
+  "CMakeFiles/cpp_practice.dir/containers.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )
