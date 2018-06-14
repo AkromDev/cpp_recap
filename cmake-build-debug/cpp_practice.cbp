@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/class_template_operator_overloading.cpp">
+		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/casting_operator.cpp">
 			<Option target="cpp_practice"/>
 		</Unit>
 		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/CMakeLists.txt">

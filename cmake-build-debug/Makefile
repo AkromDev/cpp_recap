@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-class_template_operator_overloading.o: class_template_operator_overloading.cpp.o
+casting_operator.o: casting_operator.cpp.o
 
-.PHONY : class_template_operator_overloading.o
+.PHONY : casting_operator.o
 
 # target to build an object file
-class_template_operator_overloading.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.o
-.PHONY : class_template_operator_overloading.cpp.o
+casting_operator.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/casting_operator.cpp.o
+.PHONY : casting_operator.cpp.o
 
-class_template_operator_overloading.i: class_template_operator_overloading.cpp.i
+casting_operator.i: casting_operator.cpp.i
 
-.PHONY : class_template_operator_overloading.i
+.PHONY : casting_operator.i
 
 # target to preprocess a source file
-class_template_operator_overloading.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.i
-.PHONY : class_template_operator_overloading.cpp.i
+casting_operator.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/casting_operator.cpp.i
+.PHONY : casting_operator.cpp.i
 
-class_template_operator_overloading.s: class_template_operator_overloading.cpp.s
+casting_operator.s: casting_operator.cpp.s
 
-.PHONY : class_template_operator_overloading.s
+.PHONY : casting_operator.s
 
 # target to generate assembly for a file
-class_template_operator_overloading.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.s
-.PHONY : class_template_operator_overloading.cpp.s
+casting_operator.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/casting_operator.cpp.s
+.PHONY : casting_operator.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... class_template_operator_overloading.o"
-	@echo "... class_template_operator_overloading.i"
-	@echo "... class_template_operator_overloading.s"
+	@echo "... casting_operator.o"
+	@echo "... casting_operator.i"
+	@echo "... casting_operator.s"
 .PHONY : help
 
 
