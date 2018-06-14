@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.o"
+  "CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )

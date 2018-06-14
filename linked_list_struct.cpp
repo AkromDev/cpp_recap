@@ -10,6 +10,8 @@ class LinkedList {
     nPtr head;
     nPtr tail;
     nPtr current;
+
+    int length = 0; // to keep track of number of nodes
 public:
     LinkedList(){
         head = NULL;
@@ -20,8 +22,49 @@ public:
     void insertFromFront(int value);
     void deleteNode(int value);
     void printList();
+    void find(int n);
+    void sort();
     bool isEmpty();
 };
+
+
+// swap is done by changing values of the node
+
+
+void LinkedList::sort() {
+    int temp;
+    current = head;
+
+    if(current == NULL){
+        return;
+    }else{
+        for(int i = 0; i < length; i++) { // it's just a hack-around by running loop  'length' times. this is not a proper way of sorting,
+            current = head;
+            while (current -> next != NULL) {
+                if (current -> data > current -> next -> data) {
+                    temp = current->data;
+                    current -> data = current -> next -> data;
+                    current -> next -> data = temp;
+                }
+                current = current -> next;
+            }
+        }
+
+    }
+
+}
+
+void LinkedList::find(int n) {
+    current = head;
+    while(current != NULL){
+        if(current -> data == n){
+            cout << "Value Exists\n";
+            return;
+        }
+        current = current -> next;
+    }
+    cout << "Value does not exist\n";
+}
 
 void LinkedList::insertFromBack(int value) {
     nPtr n = new node;
@@ -38,6 +81,7 @@ void LinkedList::insertFromBack(int value) {
         current -> next = n;
         tail = n;
     }
+    length++;
 }
 void LinkedList::insertFromFront(int value) {
     nPtr n = new node;
@@ -51,6 +95,7 @@ void LinkedList::insertFromFront(int value) {
         head = n;
         head -> next = current;
     }
+    length++;
 }
 
 void LinkedList::printList() {
@@ -82,6 +127,7 @@ void LinkedList::deleteNode(int value) {
             current -> next = target -> next;
         }
         delete target;
+        length--;
     }
 }
 
@@ -107,6 +153,13 @@ int main(){
             case 'd':
                 cin >> value;
                 myList.deleteNode(value);
+                break;
+            case 'f':
+                cin >> value;
+                myList.find(value);
+                break;
+            case 's':
+                myList.sort();
                 break;
             case 'p': myList.printList();break;
             case 'e':return 0;

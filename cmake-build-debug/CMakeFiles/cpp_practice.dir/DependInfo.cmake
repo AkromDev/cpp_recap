@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/imago/Documents/University courses/assingments/cpp_practice/function_template_overloading.cpp" "/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.o"
+  "/Users/imago/Documents/University courses/assingments/cpp_practice/linked_list_struct.cpp" "/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

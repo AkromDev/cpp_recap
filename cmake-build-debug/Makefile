@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-function_template_overloading.o: function_template_overloading.cpp.o
+linked_list_struct.o: linked_list_struct.cpp.o
 
-.PHONY : function_template_overloading.o
+.PHONY : linked_list_struct.o
 
 # target to build an object file
-function_template_overloading.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.o
-.PHONY : function_template_overloading.cpp.o
+linked_list_struct.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o
+.PHONY : linked_list_struct.cpp.o
 
-function_template_overloading.i: function_template_overloading.cpp.i
+linked_list_struct.i: linked_list_struct.cpp.i
 
-.PHONY : function_template_overloading.i
+.PHONY : linked_list_struct.i
 
 # target to preprocess a source file
-function_template_overloading.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.i
-.PHONY : function_template_overloading.cpp.i
+linked_list_struct.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.i
+.PHONY : linked_list_struct.cpp.i
 
-function_template_overloading.s: function_template_overloading.cpp.s
+linked_list_struct.s: linked_list_struct.cpp.s
 
-.PHONY : function_template_overloading.s
+.PHONY : linked_list_struct.s
 
 # target to generate assembly for a file
-function_template_overloading.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.s
-.PHONY : function_template_overloading.cpp.s
+linked_list_struct.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.s
+.PHONY : linked_list_struct.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... function_template_overloading.o"
-	@echo "... function_template_overloading.i"
-	@echo "... function_template_overloading.s"
+	@echo "... linked_list_struct.o"
+	@echo "... linked_list_struct.i"
+	@echo "... linked_list_struct.s"
 .PHONY : help
 
 
