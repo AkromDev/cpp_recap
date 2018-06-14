@@ -57,38 +57,38 @@ include CMakeFiles/cpp_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp_practice.dir/flags.make
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o: CMakeFiles/cpp_practice.dir/flags.make
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o: ../linked_list_struct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o -c "/Users/imago/Documents/University courses/assingments/cpp_practice/linked_list_struct.cpp"
+CMakeFiles/cpp_practice.dir/class_template.cpp.o: CMakeFiles/cpp_practice.dir/flags.make
+CMakeFiles/cpp_practice.dir/class_template.cpp.o: ../class_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_practice.dir/class_template.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_practice.dir/class_template.cpp.o -c "/Users/imago/Documents/University courses/assingments/cpp_practice/class_template.cpp"
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imago/Documents/University courses/assingments/cpp_practice/linked_list_struct.cpp" > CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.i
+CMakeFiles/cpp_practice.dir/class_template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_practice.dir/class_template.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imago/Documents/University courses/assingments/cpp_practice/class_template.cpp" > CMakeFiles/cpp_practice.dir/class_template.cpp.i
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imago/Documents/University courses/assingments/cpp_practice/linked_list_struct.cpp" -o CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.s
+CMakeFiles/cpp_practice.dir/class_template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_practice.dir/class_template.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imago/Documents/University courses/assingments/cpp_practice/class_template.cpp" -o CMakeFiles/cpp_practice.dir/class_template.cpp.s
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.requires:
+CMakeFiles/cpp_practice.dir/class_template.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.requires
+.PHONY : CMakeFiles/cpp_practice.dir/class_template.cpp.o.requires
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.provides: CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.provides
+CMakeFiles/cpp_practice.dir/class_template.cpp.o.provides: CMakeFiles/cpp_practice.dir/class_template.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp_practice.dir/class_template.cpp.o.provides
 
-CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.provides.build: CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o
+CMakeFiles/cpp_practice.dir/class_template.cpp.o.provides.build: CMakeFiles/cpp_practice.dir/class_template.cpp.o
 
 
 # Object files for target cpp_practice
 cpp_practice_OBJECTS = \
-"CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o"
+"CMakeFiles/cpp_practice.dir/class_template.cpp.o"
 
 # External object files for target cpp_practice
 cpp_practice_EXTERNAL_OBJECTS =
 
-cpp_practice: CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o
+cpp_practice: CMakeFiles/cpp_practice.dir/class_template.cpp.o
 cpp_practice: CMakeFiles/cpp_practice.dir/build.make
 cpp_practice: CMakeFiles/cpp_practice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_practice"
@@ -99,7 +99,7 @@ CMakeFiles/cpp_practice.dir/build: cpp_practice
 
 .PHONY : CMakeFiles/cpp_practice.dir/build
 
-CMakeFiles/cpp_practice.dir/requires: CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o.requires
+CMakeFiles/cpp_practice.dir/requires: CMakeFiles/cpp_practice.dir/class_template.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp_practice.dir/requires
 

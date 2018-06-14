@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-linked_list_struct.o: linked_list_struct.cpp.o
+class_template.o: class_template.cpp.o
 
-.PHONY : linked_list_struct.o
+.PHONY : class_template.o
 
 # target to build an object file
-linked_list_struct.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o
-.PHONY : linked_list_struct.cpp.o
+class_template.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.o
+.PHONY : class_template.cpp.o
 
-linked_list_struct.i: linked_list_struct.cpp.i
+class_template.i: class_template.cpp.i
 
-.PHONY : linked_list_struct.i
+.PHONY : class_template.i
 
 # target to preprocess a source file
-linked_list_struct.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.i
-.PHONY : linked_list_struct.cpp.i
+class_template.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.i
+.PHONY : class_template.cpp.i
 
-linked_list_struct.s: linked_list_struct.cpp.s
+class_template.s: class_template.cpp.s
 
-.PHONY : linked_list_struct.s
+.PHONY : class_template.s
 
 # target to generate assembly for a file
-linked_list_struct.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.s
-.PHONY : linked_list_struct.cpp.s
+class_template.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.s
+.PHONY : class_template.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... linked_list_struct.o"
-	@echo "... linked_list_struct.i"
-	@echo "... linked_list_struct.s"
+	@echo "... class_template.o"
+	@echo "... class_template.i"
+	@echo "... class_template.s"
 .PHONY : help
 
 

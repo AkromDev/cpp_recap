@@ -12,20 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ee7e93-4f43-4bad-bc4a-86138a61ae6e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/class_template.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/function_template_overloading.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_practice" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_practice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_struct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_struct.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +33,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="linked_list_struct.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linked_list_struct.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked_list_struct.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_template.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_template.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="e#52#70#0" expanded="true" />
+                <element signature="e#244#262#0" expanded="true" />
+                <element signature="e#313#322#0" expanded="true" />
+                <element signature="e#390#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function_template.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Function_template.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="49" column="26" selection-end-line="61" selection-end-column="1" />
+              <folding>
+                <element signature="e#52#61#0" expanded="true" />
+                <element signature="e#169#187#0" expanded="true" />
+                <element signature="e#338#356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +114,9 @@
         <option value="$PROJECT_DIR$/hybrid_inheritance.cpp" />
         <option value="$PROJECT_DIR$/Function_template.cpp" />
         <option value="$PROJECT_DIR$/function_template_overloading.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/linked_list_struct.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/class_template.cpp" />
       </list>
     </option>
   </component>
@@ -161,26 +195,26 @@
       <workItem from="1528785028446" duration="8398000" />
       <workItem from="1528859170036" duration="31000" />
       <workItem from="1528900551366" duration="6506000" />
-      <workItem from="1528934056113" duration="2082000" />
+      <workItem from="1528934056113" duration="3390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26963000" />
+    <option name="totallyTimeSpent" value="28271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21353066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21353066" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3290653" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3290653" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290653" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3290653" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -199,20 +233,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Function_template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#61#0" expanded="true" />
-            <element signature="e#169#187#0" expanded="true" />
-            <element signature="e#338#356#0" expanded="true" />
-            <element signature="e#503#529#0" expanded="true" />
-            <element signature="e#679#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function_template_overloading.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -540,20 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Function_template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#61#0" expanded="true" />
-            <element signature="e#169#187#0" expanded="true" />
-            <element signature="e#338#356#0" expanded="true" />
-            <element signature="e#503#529#0" expanded="true" />
-            <element signature="e#679#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function_template_overloading.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -566,17 +572,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/linked_list_struct.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list_struct.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="162">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function_template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="26" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+            <element signature="e#169#187#0" expanded="true" />
+            <element signature="e#338#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+            <element signature="e#244#262#0" expanded="true" />
+            <element signature="e#313#322#0" expanded="true" />
+            <element signature="e#390#399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
