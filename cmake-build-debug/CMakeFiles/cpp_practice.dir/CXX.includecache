@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/imago/Documents/University courses/assingments/cpp_practice/linked_list_struct.cpp
+/Users/imago/Documents/University courses/assingments/cpp_practice/class_template.cpp
 iostream
+-
+string
 -
 
