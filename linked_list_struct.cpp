@@ -142,11 +142,11 @@ int main(){
     while(1){
         cin >> opCode;
         switch(opCode){
-            case 'i':
+            case 'b':
                 cin >> value;
                 myList.insertFromBack(value);
                 break;
-            case 'b':
+            case 'i':
                 cin >> value;
                 myList.insertFromFront(value);
                 break;
