@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-class_template.o: class_template.cpp.o
+class_template_operator_overloading.o: class_template_operator_overloading.cpp.o
 
-.PHONY : class_template.o
+.PHONY : class_template_operator_overloading.o
 
 # target to build an object file
-class_template.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.o
-.PHONY : class_template.cpp.o
+class_template_operator_overloading.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.o
+.PHONY : class_template_operator_overloading.cpp.o
 
-class_template.i: class_template.cpp.i
+class_template_operator_overloading.i: class_template_operator_overloading.cpp.i
 
-.PHONY : class_template.i
+.PHONY : class_template_operator_overloading.i
 
 # target to preprocess a source file
-class_template.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.i
-.PHONY : class_template.cpp.i
+class_template_operator_overloading.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.i
+.PHONY : class_template_operator_overloading.cpp.i
 
-class_template.s: class_template.cpp.s
+class_template_operator_overloading.s: class_template_operator_overloading.cpp.s
 
-.PHONY : class_template.s
+.PHONY : class_template_operator_overloading.s
 
 # target to generate assembly for a file
-class_template.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template.cpp.s
-.PHONY : class_template.cpp.s
+class_template_operator_overloading.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/class_template_operator_overloading.cpp.s
+.PHONY : class_template_operator_overloading.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... class_template.o"
-	@echo "... class_template.i"
-	@echo "... class_template.s"
+	@echo "... class_template_operator_overloading.o"
+	@echo "... class_template_operator_overloading.i"
+	@echo "... class_template_operator_overloading.s"
 .PHONY : help
 
 

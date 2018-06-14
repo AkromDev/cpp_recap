@@ -12,8 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ee7e93-4f43-4bad-bc4a-86138a61ae6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/class_template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/class_template.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/linked_list_struct.cpp.o" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_template_operator_overloading.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp_practice.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +36,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="126">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,20 +51,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_template.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_template.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_template.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="3">
+              <caret line="13" column="7" selection-end-line="56" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#52#61#0" expanded="true" />
-                <element signature="e#284#293#0" expanded="true" />
-                <element signature="e#243#252#0" expanded="true" />
-                <element signature="e#308#317#0" expanded="true" />
-                <element signature="e#402#411#0" expanded="true" />
-                <element signature="e#528#537#0" expanded="true" />
-                <element signature="e#597#606#0" expanded="true" />
+                <element signature="e#70#88#0" expanded="true" />
+                <element signature="e#283#301#0" expanded="true" />
+                <element signature="e#389#407#0" expanded="true" />
+                <element signature="e#474#492#0" expanded="true" />
+                <element signature="e#561#579#0" expanded="true" />
+                <element signature="e#634#652#0" expanded="true" />
+                <element signature="e#709#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_template_operator_overloading.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_template_operator_overloading.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#70#79#0" expanded="true" />
+                <element signature="e#541#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,13 +105,15 @@
       <find>insertNode</find>
       <find>maxm</find>
       <find>&lt;class T, class S&gt;</find>
+      <find>&lt;T,S&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>maxOneType</replace>
       <replace>template &lt;class T&gt;</replace>
-      <replace>&lt;T&gt;</replace>
+      <replace>Test</replace>
       <replace>&lt;class T&gt;</replace>
+      <replace>&lt;T&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,9 +138,10 @@
         <option value="$PROJECT_DIR$/hybrid_inheritance.cpp" />
         <option value="$PROJECT_DIR$/Function_template.cpp" />
         <option value="$PROJECT_DIR$/function_template_overloading.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/linked_list_struct.cpp" />
         <option value="$PROJECT_DIR$/class_template.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/class_template_operator_overloading.cpp" />
       </list>
     </option>
   </component>
@@ -196,12 +220,12 @@
       <workItem from="1528785028446" duration="8398000" />
       <workItem from="1528859170036" duration="31000" />
       <workItem from="1528900551366" duration="6506000" />
-      <workItem from="1528934056113" duration="5054000" />
+      <workItem from="1528934056113" duration="6283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29935000" />
+    <option name="totallyTimeSpent" value="31164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="0" />
@@ -233,18 +257,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/function_template_overloading.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding>
-            <element signature="e#52#61#0" expanded="true" />
-            <element signature="e#329#338#0" expanded="true" />
-            <element signature="e#446#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function_overloading.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -593,24 +605,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="126">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class_template.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="3">
+          <caret line="13" column="7" selection-end-line="56" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#52#61#0" expanded="true" />
-            <element signature="e#284#293#0" expanded="true" />
-            <element signature="e#243#252#0" expanded="true" />
-            <element signature="e#308#317#0" expanded="true" />
-            <element signature="e#402#411#0" expanded="true" />
-            <element signature="e#528#537#0" expanded="true" />
-            <element signature="e#597#606#0" expanded="true" />
+            <element signature="e#70#88#0" expanded="true" />
+            <element signature="e#283#301#0" expanded="true" />
+            <element signature="e#389#407#0" expanded="true" />
+            <element signature="e#474#492#0" expanded="true" />
+            <element signature="e#561#579#0" expanded="true" />
+            <element signature="e#634#652#0" expanded="true" />
+            <element signature="e#709#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_template_operator_overloading.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#70#79#0" expanded="true" />
+            <element signature="e#541#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
