@@ -11,28 +11,48 @@ using namespace std;
  *   from pure virtual function.
  * */
 class Person { // Abstract class
-    virtual int getAge(int x) = 0;
+    virtual string getFirstName(string first_name) = 0;
+    virtual string getLastName(string last_name) = 0;
+    virtual string getEmail(string email) = 0;
 };
 
 class Student: public Person {
-    int age;
+    string first_name;
+    string last_name;
+    string email;
 public:
-    Student(int s){
-        age = s;
+    Student(string first_name, string last_name, string email){
+        this -> first_name = first_name;
+        this -> last_name = last_name;
+        this -> email;
     }
-    int getAge(int x){ // should be same with base class abstract method
-        return age;
+    string getAge(string first_name){ // should be same with base class abstract method
+        return first_name;
+    }
+    string getAge(string last_name){ // should be same with base class abstract method
+        return last_name;
+    }
+    string getAge(string email){ // should be same with base class abstract method
+        return email;
     }
 };
 
 class Faculty: public Person {
-    int age;
+    string first_name;
+    string last_name;
+    string email;
 public:
     Faculty(int t){
         age = t;
     }
-    int getAge(int a){ // should be same with base class abstract method
-        return age;
+    string getAge(string first_name){ // should be same with base class abstract method
+        return first_name;
+    }
+    string getAge(string last_name){ // should be same with base class abstract method
+        return last_name;
+    }
+    string getAge(string email){ // should be same with base class abstract method
+        return email;
     }
 };
 

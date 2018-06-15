@@ -18,10 +18,12 @@ using namespace std;
 
 int main(){
     vector<int> vec;
+    vector<int>::iterator itr;
     vec.push_back(1);
     vec.push_back(2);
     vec.push_back(3);
     vec.push_back(4);
+    vec.erase(itr = vec.begin(),4);
     vec.push_back(5);
 
     for (int i = 0; i < vec.size(); ++i) {
@@ -33,7 +35,7 @@ int main(){
     int *p = &vec[0]; // pointing to the beginning of the vector
     p[2] = 33; // should be without * and &
     cout << endl << "Vec values: " <<endl;
-    for(vector<int>::iterator itr = vec.begin(); itr != vec.end(); itr++){
+    for( itr = vec.begin(); itr != vec.end(); itr++){
         cout << *itr << "\t";
     }
 

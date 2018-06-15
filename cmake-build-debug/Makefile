@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-deque.o: deque.cpp.o
+vector.o: vector.cpp.o
 
-.PHONY : deque.o
+.PHONY : vector.o
 
 # target to build an object file
-deque.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/deque.cpp.o
-.PHONY : deque.cpp.o
+vector.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.o
+.PHONY : vector.cpp.o
 
-deque.i: deque.cpp.i
+vector.i: vector.cpp.i
 
-.PHONY : deque.i
+.PHONY : vector.i
 
 # target to preprocess a source file
-deque.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/deque.cpp.i
-.PHONY : deque.cpp.i
+vector.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.i
+.PHONY : vector.cpp.i
 
-deque.s: deque.cpp.s
+vector.s: vector.cpp.s
 
-.PHONY : deque.s
+.PHONY : vector.s
 
 # target to generate assembly for a file
-deque.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/deque.cpp.s
-.PHONY : deque.cpp.s
+vector.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.s
+.PHONY : vector.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... deque.o"
-	@echo "... deque.i"
-	@echo "... deque.s"
+	@echo "... vector.o"
+	@echo "... vector.i"
+	@echo "... vector.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_practice.dir/deque.cpp.o"
+  "CMakeFiles/cpp_practice.dir/vector.cpp.o"
   "cpp_practice.pdb"
   "cpp_practice"
 )

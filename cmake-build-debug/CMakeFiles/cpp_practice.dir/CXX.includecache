@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/imago/Documents/University courses/assingments/cpp_practice/deque.cpp
+/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp
 iostream
 -
-deque
+vector
 -
 
