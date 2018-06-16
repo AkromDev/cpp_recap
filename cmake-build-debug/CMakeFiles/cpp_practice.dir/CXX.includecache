@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp
+/Users/imago/Documents/University courses/assingments/cpp_practice/assignment3.cpp
 iostream
 -
-vector
+array
 -
 

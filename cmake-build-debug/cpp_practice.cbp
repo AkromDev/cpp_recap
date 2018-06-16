@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp">
+		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/assignment3.cpp">
 			<Option target="cpp_practice"/>
 		</Unit>
 		<Unit filename="/Users/imago/Documents/University courses/assingments/cpp_practice/CMakeLists.txt">

@@ -57,38 +57,38 @@ include CMakeFiles/cpp_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp_practice.dir/flags.make
 
-CMakeFiles/cpp_practice.dir/vector.cpp.o: CMakeFiles/cpp_practice.dir/flags.make
-CMakeFiles/cpp_practice.dir/vector.cpp.o: ../vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_practice.dir/vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_practice.dir/vector.cpp.o -c "/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp"
+CMakeFiles/cpp_practice.dir/assignment3.cpp.o: CMakeFiles/cpp_practice.dir/flags.make
+CMakeFiles/cpp_practice.dir/assignment3.cpp.o: ../assignment3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_practice.dir/assignment3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_practice.dir/assignment3.cpp.o -c "/Users/imago/Documents/University courses/assingments/cpp_practice/assignment3.cpp"
 
-CMakeFiles/cpp_practice.dir/vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_practice.dir/vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp" > CMakeFiles/cpp_practice.dir/vector.cpp.i
+CMakeFiles/cpp_practice.dir/assignment3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_practice.dir/assignment3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imago/Documents/University courses/assingments/cpp_practice/assignment3.cpp" > CMakeFiles/cpp_practice.dir/assignment3.cpp.i
 
-CMakeFiles/cpp_practice.dir/vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_practice.dir/vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imago/Documents/University courses/assingments/cpp_practice/vector.cpp" -o CMakeFiles/cpp_practice.dir/vector.cpp.s
+CMakeFiles/cpp_practice.dir/assignment3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_practice.dir/assignment3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imago/Documents/University courses/assingments/cpp_practice/assignment3.cpp" -o CMakeFiles/cpp_practice.dir/assignment3.cpp.s
 
-CMakeFiles/cpp_practice.dir/vector.cpp.o.requires:
+CMakeFiles/cpp_practice.dir/assignment3.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp_practice.dir/vector.cpp.o.requires
+.PHONY : CMakeFiles/cpp_practice.dir/assignment3.cpp.o.requires
 
-CMakeFiles/cpp_practice.dir/vector.cpp.o.provides: CMakeFiles/cpp_practice.dir/vector.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp_practice.dir/vector.cpp.o.provides
+CMakeFiles/cpp_practice.dir/assignment3.cpp.o.provides: CMakeFiles/cpp_practice.dir/assignment3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp_practice.dir/assignment3.cpp.o.provides
 
-CMakeFiles/cpp_practice.dir/vector.cpp.o.provides.build: CMakeFiles/cpp_practice.dir/vector.cpp.o
+CMakeFiles/cpp_practice.dir/assignment3.cpp.o.provides.build: CMakeFiles/cpp_practice.dir/assignment3.cpp.o
 
 
 # Object files for target cpp_practice
 cpp_practice_OBJECTS = \
-"CMakeFiles/cpp_practice.dir/vector.cpp.o"
+"CMakeFiles/cpp_practice.dir/assignment3.cpp.o"
 
 # External object files for target cpp_practice
 cpp_practice_EXTERNAL_OBJECTS =
 
-cpp_practice: CMakeFiles/cpp_practice.dir/vector.cpp.o
+cpp_practice: CMakeFiles/cpp_practice.dir/assignment3.cpp.o
 cpp_practice: CMakeFiles/cpp_practice.dir/build.make
 cpp_practice: CMakeFiles/cpp_practice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/imago/Documents/University courses/assingments/cpp_practice/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_practice"
@@ -99,7 +99,7 @@ CMakeFiles/cpp_practice.dir/build: cpp_practice
 
 .PHONY : CMakeFiles/cpp_practice.dir/build
 
-CMakeFiles/cpp_practice.dir/requires: CMakeFiles/cpp_practice.dir/vector.cpp.o.requires
+CMakeFiles/cpp_practice.dir/requires: CMakeFiles/cpp_practice.dir/assignment3.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp_practice.dir/requires
 

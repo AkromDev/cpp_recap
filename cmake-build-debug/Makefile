@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-vector.o: vector.cpp.o
+assignment3.o: assignment3.cpp.o
 
-.PHONY : vector.o
+.PHONY : assignment3.o
 
 # target to build an object file
-vector.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.o
-.PHONY : vector.cpp.o
+assignment3.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.o
+.PHONY : assignment3.cpp.o
 
-vector.i: vector.cpp.i
+assignment3.i: assignment3.cpp.i
 
-.PHONY : vector.i
+.PHONY : assignment3.i
 
 # target to preprocess a source file
-vector.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.i
-.PHONY : vector.cpp.i
+assignment3.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.i
+.PHONY : assignment3.cpp.i
 
-vector.s: vector.cpp.s
+assignment3.s: assignment3.cpp.s
 
-.PHONY : vector.s
+.PHONY : assignment3.s
 
 # target to generate assembly for a file
-vector.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/vector.cpp.s
-.PHONY : vector.cpp.s
+assignment3.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.s
+.PHONY : assignment3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... vector.o"
-	@echo "... vector.i"
-	@echo "... vector.s"
+	@echo "... assignment3.o"
+	@echo "... assignment3.i"
+	@echo "... assignment3.s"
 .PHONY : help
 
 

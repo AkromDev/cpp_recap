@@ -10,26 +10,16 @@ void firstProblem(){
     cout << *q << endl; // to get the value put * asterisk
 }
 void secondProblem(){
-    int a = 100, b = 88, c = 8;
-    int *p1 = &a, *p2, *p3 = &c;
-    p2 = &b;
-    p2 = p1;
-    b = *p3;
-    *p2 = *p3;
-    cout << a << "\t"<< b << "\t" << c;
+    int a = 100;
+    int *p1 = &a;
+
+    cout << &p1 << "\t";
 }
-int cube(int *side){
-    return (*side)*(*side)*(*side);
-}
-void thirdProblem(){
-    int y = 10;
-    int result = cube(&y);
-    cout << "Cube of "<< y << " = " << result << endl;
-}
+
 
 int main(){
 //   firstProblem();
-//   secondProblem();
+   secondProblem();
 //    thirdProblem();
     return 0;
 
