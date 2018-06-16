@@ -89,7 +89,7 @@ public:
         }
     }
 
-    ~Matrix(){ // destrcutor
+    ~Matrix(){ // destructor
         for (int i = 0; i < rowLength ; ++i) {
             delete myArray[i]; // delete each column;
         }

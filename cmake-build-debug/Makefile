@@ -123,32 +123,32 @@ cpp_practice/fast:
 	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/build
 .PHONY : cpp_practice/fast
 
-assignment3.o: assignment3.cpp.o
+assignment4.o: assignment4.cpp.o
 
-.PHONY : assignment3.o
+.PHONY : assignment4.o
 
 # target to build an object file
-assignment3.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.o
-.PHONY : assignment3.cpp.o
+assignment4.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment4.cpp.o
+.PHONY : assignment4.cpp.o
 
-assignment3.i: assignment3.cpp.i
+assignment4.i: assignment4.cpp.i
 
-.PHONY : assignment3.i
+.PHONY : assignment4.i
 
 # target to preprocess a source file
-assignment3.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.i
-.PHONY : assignment3.cpp.i
+assignment4.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment4.cpp.i
+.PHONY : assignment4.cpp.i
 
-assignment3.s: assignment3.cpp.s
+assignment4.s: assignment4.cpp.s
 
-.PHONY : assignment3.s
+.PHONY : assignment4.s
 
 # target to generate assembly for a file
-assignment3.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment3.cpp.s
-.PHONY : assignment3.cpp.s
+assignment4.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_practice.dir/build.make CMakeFiles/cpp_practice.dir/assignment4.cpp.s
+.PHONY : assignment4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_practice"
-	@echo "... assignment3.o"
-	@echo "... assignment3.i"
-	@echo "... assignment3.s"
+	@echo "... assignment4.o"
+	@echo "... assignment4.i"
+	@echo "... assignment4.s"
 .PHONY : help
 
 
